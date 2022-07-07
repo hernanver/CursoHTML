@@ -1,0 +1,36 @@
+.contenedor {
+    background-color: blue;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+    border-radius: 5px;
+    border: 3px solid rgba(0,0,0,.2);
+}
+
+.item4{
+    padding: 0.25rem;
+    width: 10rem;
+    background-color: darkolivegreen;
+    transform: translateX(200%) translateY(-300%);
+    flex-grow: 2;
+    border: 3px solid rgba(0,0,0,.2);
+    
+}
+
+
+@media (max-width: 640px) {
+    .contenedor {
+        display: flex;
+        flex-direction:row; 
+        
+}
+}
+
